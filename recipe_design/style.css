@@ -1,0 +1,40 @@
+body {
+background: rgb(171,22,22);
+background: radial-gradient(circle, rgba(171,22,22,1) 10%, rgba(163,0,0,1) 70%, rgba(255,255,255,1) 95%);
+font-family: roboto, Verdana, sans-serif;
+}
+.link {
+list-style: square;
+color: black;
+text-align: left;
+}
+h1 {
+font-size: 3em;
+color: white;
+text-align: center;
+}
+
+p {
+font-size: 1.4em;
+color: black;
+text-align: center;
+}
+
+a { 
+font-size: 1.3em;
+color: black;
+transition: color 300ms ease-in;
+ }
+
+ a:hover {
+ 	color: WHITE;
+ }
+
+ img {
+ 	max-width: 100%;
+ }
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
